@@ -143,4 +143,4 @@ Finally, in generic.js, the GenericManifest class must be edited to include your
 
 The Main.html file in the templates directory contains the main runner code that runs each generated game. It can be edited by keeping in mind the following macros:
 $$GAME_NAME$$ will be replaced with the name of the game.
-$$GAME_INCLUDES$$ will be replaced with a list of <script> tags that reference each auto-generated javascript file (both rooms and objects).
+$$GAME_INCLUDES$$ will be replaced with a list of `<script>` tags that reference each auto-generated javascript file (both rooms and objects).
